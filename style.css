@@ -78,6 +78,7 @@ nav a.active {
 .btn-primary {
   background: #00aaff;
   color: #ffffff;
+
 }
 
 .btn-outline {
@@ -119,5 +120,3 @@ nav a.active {
   bottom: 5%;
   right: -20px;
 }
-
-
