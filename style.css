@@ -1,28 +1,136 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
- .nav-wrapper{
-    background-color: #051117;
-    display: flex;
-    height: 100px;
+body {
+  background: #0b1620;
+  color: #ffffff;
 }
 
- .nav-wrapper ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+header {
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
- .nav-wrapper ul li a{
-    text-decoration: none;
-    color: white;
-    display: block;
+.logo {
+  font-weight: bold;
 }
-    
-.nav-wrapper ul li a:hover{
-    background-color: #555;
-}  
+
+nav a {
+  color: #cccccc;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+nav a.active {
+  color: #00aaff;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  min-height: calc(100vh - 80px);
+}
+
+.hero-text {
+  max-width: 550px;
+}
+
+.hero-text h1 {
+  font-size: 52px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+  color: #00aaff;
+}
+
+.hero-text h3 {
+  font-weight: 400;
+  color: #00aaff;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  color: #aaaaaa;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.buttons a {
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: #00aaff;
+  color: #ffffff;
+}
+
+.btn-outline {
+  border: 1px solid #00aaff;
+  color: #00aaff;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.hero-img img {
+  width: 380px;
+  border-radius: 20px;
+}
+
+.tag {
+  position: absolute;
+  background: #0f2433;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tag.design {
+  top: 20%;
+  right: -20px;
+}
+
+.tag.code {
+  bottom: 25%;
+  left: -30px;
+}
+
+.tag.ideas {
+  bottom: 5%;
+  right: -20px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-img {
+    margin-top: 40px;
+  }
+
+  .tag {
+    display: none;
+  }
+}
