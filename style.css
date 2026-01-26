@@ -120,17 +120,4 @@ nav a.active {
   right: -20px;
 }
 
-@media (max-width: 900px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .hero-img {
-    margin-top: 40px;
-  }
-
-  .tag {
-    display: none;
-  }
-}
