@@ -112,6 +112,7 @@ nav a.active {
 .hero-img img:hover{
     font-size: 3px;
     transition: all 0.5s;
+    border: 2px solid #00aaff;
 }
 
 .tag {
