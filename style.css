@@ -7,6 +7,7 @@
 body {
   background: #0b1620;
   color: #ffffff;
+  
 }
 
 header {
@@ -15,6 +16,8 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgba(255,255,255,0.05);
+  position: sticky;
+  top: 0;
 }
 
 .logo {
@@ -75,6 +78,12 @@ nav a.active {
   font-size: 14px;
 }
 
+.buttons a:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+    font-size: 18px;
+}
+
 .btn-primary {
   background: #00aaff;
   color: #ffffff;
@@ -128,3 +137,31 @@ nav a.active {
   background-color: rgba(0, 0, 0, 0.562);  
 }
  
+.a-lar{
+    color: grey;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.a-lar:hover{
+    color: deepskyblue;
+    font-size: 18px;
+    transition: 0.8s;
+    text-decoration:dashed;
+}
+
+.copy {
+  color: white;
+  font-size: 16px;
+}
+
+i {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.admin1{
+    color: deepskyblue;
+    text-decoration: none;
+} 
