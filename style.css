@@ -25,10 +25,15 @@ header {
 }
 
 nav a {
+  position: relative;
   color: #cccccc;
   text-decoration: none;
   margin: 0 15px;
   font-size: 18px;
+}
+nav a:hover {
+    font-size: 17px;
+    transition: all 1s;
 }
 
 nav a.active {
@@ -102,6 +107,11 @@ nav a.active {
 .hero-img img {
   width: 380px;
   border-radius: 20px;
+}
+
+.hero-img img:hover{
+    font-size: 3px;
+    transition: all 0.5s;
 }
 
 .tag {
