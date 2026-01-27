@@ -120,3 +120,11 @@ nav a.active {
   bottom: 5%;
   right: -20px;
 }
+
+.links {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.562);  
+}
+ 
