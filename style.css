@@ -18,10 +18,18 @@ header {
   border-bottom: 1px solid rgba(255,255,255,0.05);
   position: sticky;
   top: 0;
+  z-index: 1000;
+  background-color: #0b16205d;
+  backdrop-filter: blur(10px);
 }
 
 .logo {
   font-weight: bold;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
 
 nav a {
@@ -36,9 +44,23 @@ nav a:hover {
     transition: all 1s;
 }
 
-nav a.active {
-  color: #00aaff;
+.active{
+    /* color: #00aaff; */
+    transition: transform 0.3s ease;
 }
+
+/* nav a.active {
+  color: #00aaff;
+} */
+
+nav a.active:hover {
+    font-size: 19px;
+    color: red;
+}
+
+/* .active::after{
+  color: deepskyblue;
+} */
 
 .hero {
   display: flex;

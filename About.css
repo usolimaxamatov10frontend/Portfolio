@@ -18,10 +18,17 @@ header {
   border-bottom: 1px solid rgba(255,255,255,0.05);
   position: sticky;
   top: 0;
+  z-index: 1000;
+  background-color: #0b16205d;
+  backdrop-filter: blur(10px);
 }
 
 .logo {
   font-weight: bold;
+}
+
+nav{
+  z-index: 1000;
 }
 
 nav a {
@@ -36,9 +43,9 @@ nav a:hover {
     transition: all 1s;
 }
 
-nav a.active {
+/* nav a.active {
   color: #00aaff;
-}
+} */
 
 .hero {
   display: flex;
@@ -49,6 +56,37 @@ nav a.active {
 
 .hero-text {
   max-width: 550px;
+}
+
+.matn{
+  font-size: 20px;
+  text-align: start;
+  margin-top: 10px;
+}
+
+.matn1 {
+  width: 700px;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: start;
+  margin-left: 350px;
+}
+
+.matn2{
+    font-size: 40px;
+    text-align: start;
+}
+
+.matn3{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: start;
+}
+
+.matn4{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: start;
 }
 
 h1 {
@@ -70,4 +108,40 @@ h1 {
     font-size: 3px;
     transition: all 0.5s;
     border: 3px solid #00aaff;
+}
+
+.links {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.562);  
+}
+ 
+.a-lar{
+    color: grey;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.a-lar:hover{
+    color: deepskyblue;
+    font-size: 18px;
+    transition: 0.8s;
+    text-decoration:dashed;
+}
+
+.copy {
+  color: white;
+  font-size: 16px;
+}
+
+i {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.admin1{
+    color: deepskyblue;
+    text-decoration: none;
 }

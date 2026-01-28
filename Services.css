@@ -18,6 +18,9 @@ header {
   border-bottom: 1px solid rgba(255,255,255,0.05);
   position: sticky;
   top: 0;
+  z-index: 1000;
+  background-color: #0b16205d;
+  backdrop-filter: blur(10px);
 }
 
 .logo {
@@ -36,6 +39,42 @@ nav a:hover {
     transition: all 1s;
 }
 
-nav a.active {
+/* nav a.active {
   color: #00aaff;
+} */
+
+.links {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.562);  
+}
+ 
+.a-lar{
+    color: grey;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.a-lar:hover{
+    color: deepskyblue;
+    font-size: 18px;
+    transition: 0.8s;
+    text-decoration:dashed;
+}
+
+.copy {
+  color: white;
+  font-size: 16px;
+}
+
+i {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.admin1{
+    color: deepskyblue;
+    text-decoration: none;
 }
