@@ -39,6 +39,11 @@ nav a:hover {
     transition: all 1s;
 }
 
+nav a.active:hover {
+    font-size: 19px;
+    color: red;
+}
+
 /* nav a.active {
   color: #00aaff;
 } */

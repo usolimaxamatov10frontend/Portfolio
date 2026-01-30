@@ -43,6 +43,11 @@ nav a:hover {
     transition: all 1s;
 }
 
+nav a.active:hover {
+    font-size: 19px;
+    color: red;
+}
+
 /* nav a.active {
   color: #00aaff;
 } */
@@ -150,4 +155,26 @@ i {
 .admin1{
     color: deepskyblue;
     text-decoration: none;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill:hover {
+    background-color: deepskyblue;
+    transition: all 4s;
+    border: solid white 2px;
+}
+
+.skill {
+    width: 33%;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px; 
+    background-color: grey;
+    padding: 30px;
+    color: white;
 }
