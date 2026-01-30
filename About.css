@@ -164,7 +164,6 @@ i {
 
 .skill1:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.658)), url(https://avatars.mds.yandex.net/i?id=016b4570af2abfe3aeba46bc803e268fce105f5f-5189719-images-thumbs&n=13) center/cover;
-    transition: all 1s;
     border: solid white 2px;
 
 }
@@ -177,12 +176,12 @@ i {
     border-radius: 15px; 
     background: linear-gradient(rgba(0, 0, 0, 0.911),rgba(0, 0, 0, 0.918)), url(https://avatars.mds.yandex.net/i?id=016b4570af2abfe3aeba46bc803e268fce105f5f-5189719-images-thumbs&n=13) center/cover;
     padding: 30px;
+    transition: all 1s linear;
     color: rgb(255, 255, 255);
 }
 
 .skill2:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.658)), url(https://avatars.mds.yandex.net/i?id=3e134ecc91a24371faa22ba1c92642b962bacb85-8991021-images-thumbs&n=13) center/cover;
-    transition: all 1s;
     border: solid white 2px;
 
 }
@@ -212,5 +211,7 @@ i {
     border-radius: 15px; 
     background: linear-gradient(rgba(0, 0, 0, 0.911),rgba(0, 0, 0, 0.918)), url(https://avatars.mds.yandex.net/i?id=b1f42e856b442782c8f20321e546c62da3563241-5843118-images-thumbs&n=13) center/cover;
     padding: 30px;
+    transition: all 1s linear;
     color: rgb(255, 255, 255);
 }
+
