@@ -215,3 +215,86 @@ i {
     color: rgb(255, 255, 255);
 }
 
+.goals h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.goals-ul {
+    list-style-type: square;
+    font-size: 20px;
+   text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    border: none;
+    border-radius: 15px; 
+}
+
+.goals-ul li {
+    width: 100%;
+    background-color: #cccccc;
+    color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.goals-ul li:hover {
+    border: solid rgb(154, 250, 234) 2px;
+    background-color: gray;
+
+}
+
+
+.family {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+.father, .mother, .brother, .little-sister, .me {
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);   
+    background-color: black;
+    margin-top: 20px;
+}
+
+.father:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.699)), url('https://avatars.mds.yandex.net/i?id=93b020112b5c1574adf5084cb87adee0e6c2e5cb-12305303-images-thumbs&n=13');
+    background-size: cover;
+    background-position: center;
+}
+
+.brother:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.699)), url('https://avatars.mds.yandex.net/i?id=2cc9bd2a1883827b6fbfc017ef063737cf0ed858-5219488-images-thumbs&n=13');
+    background-size: cover;
+    background-position: center;
+}
+
+.little-sister:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.699)), url('https://avatars.mds.yandex.net/i?id=0ea99ed34cc500dd6067eca73d119cd37293faff-12517331-images-thumbs&n=13');
+    background-size: cover;
+    background-position: center;
+}
+.mother:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.699)), url('https://avatars.mds.yandex.net/i?id=0ea99ed34cc500dd6067eca73d119cd37293faff-12517331-images-thumbs&n=13');
+    background-size: cover;
+    background-position: center;
+}
+
+.me:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.699)), url('https://avatars.mds.yandex.net/i?id=2cc9bd2a1883827b6fbfc017ef063737cf0ed858-5219488-images-thumbs&n=13');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
