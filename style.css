@@ -52,22 +52,13 @@ nav a:hover {
 }
 
 .active{
-    /* color: #00aaff; */
     transition: transform 0.3s ease;
 }
-
-/* nav a.active {
-  color: #00aaff;
-} */
 
 nav a.active:hover {
     font-size: 19px;
     color: red;
 }
-
-/* .active::after{
-  color: deepskyblue;
-} */
 
 .hero {
   display: flex;

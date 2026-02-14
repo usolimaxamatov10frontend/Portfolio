@@ -90,3 +90,20 @@ i {
     color: deepskyblue;
     text-decoration: none;
 }
+
+.iframed {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.Project {
+  width: 40%;
+  height: 90vh;
+  border: none;
+  margin-top: 20px;
+}
+
+.btn-projet {
+  gap: 10px;
+}
