@@ -28,6 +28,7 @@ header {
     height: 400px;
     border-radius: 20px;
     cursor: text;
+    object-fit: cover;
 }
 
 .logo {
