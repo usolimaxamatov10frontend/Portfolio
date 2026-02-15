@@ -102,6 +102,7 @@ h1 {
 }
 .hero-img {
   position: relative;
+  object-fit: cover;
 }
 
 .hero-img img {
@@ -267,31 +268,36 @@ i {
     margin-top: 20px;
 }
 
-.father:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.699)), url('https://avatars.mds.yandex.net/i?id=93b020112b5c1574adf5084cb87adee0e6c2e5cb-12305303-images-thumbs&n=13');
+.father {
+    color: black;
+    background: url("photo_2026-02-15_10-23-27.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.brother {
+    color: black;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.little-sister {
+    color: black;
+    background-image: url("photo_2026-02-15_10-04-04.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.mother {
+    color: black;
+    background-image: url("photo_2026-02-15_10-19-37.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.brother:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.699)), url('https://avatars.mds.yandex.net/i?id=2cc9bd2a1883827b6fbfc017ef063737cf0ed858-5219488-images-thumbs&n=13');
-    background-size: cover;
-    background-position: center;
-}
-
-.little-sister:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.699)), url('https://avatars.mds.yandex.net/i?id=0ea99ed34cc500dd6067eca73d119cd37293faff-12517331-images-thumbs&n=13');
-    background-size: cover;
-    background-position: center;
-}
-.mother:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.699)), url('https://avatars.mds.yandex.net/i?id=0ea99ed34cc500dd6067eca73d119cd37293faff-12517331-images-thumbs&n=13');
-    background-size: cover;
-    background-position: center;
-}
-
-.me:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.699)), url('https://avatars.mds.yandex.net/i?id=2cc9bd2a1883827b6fbfc017ef063737cf0ed858-5219488-images-thumbs&n=13');
+.me {
+    color: black;
+    background: url("../ChatGPT Image 15 февр. 2026 г., 09_46_13.png");
     background-size: cover;
     background-position: center;
 }
